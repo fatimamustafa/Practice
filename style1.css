@@ -1,0 +1,154 @@
+html,body {
+    overflow-x: hidden;
+}
+
+.mycarousel 
+{
+    width: 100%;
+}
+
+.mycarousel img 
+{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption {
+position: absolute;
+top: 115px;
+left: -50px;
+}
+@media screen and (max-width:600px)
+{
+        .mycarousel img {
+            height: auto;
+        }
+}
+#about 
+{
+    margin-top: 100px;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+hr 
+{
+    background-color: #29ABE2;
+    height: 3px;
+    border: 0px;
+}
+.about-col 
+{
+    width: 100%;
+    vertical-align: middle;
+    box-shadow: 0 8px 35px 0 #29ABE2;
+}
+@media screen and (max-width: 600px) {
+
+    .about-col {
+        font-size: 12px ;
+    }
+}
+.about-col h5
+{
+    font-family: 'Nanum Myeongjo', serif;
+    color: #29ABE2;
+    text-align: center;
+}
+.about-col h2 {
+    font-family: 'Abril Fatface', cursive;
+    color: #29ABE2;
+    text-align: center;
+    line-height: 35px;
+}
+.footer {
+    color: white;
+    width: 100% !important;
+}
+
+.footer-quote  h2{
+    font-family: 'Nanum Myeongjo', serif;
+    line-height: 45px;
+    text-align: center;
+}
+
+.footer-quote  h3{
+    font-family: 'Dancing Script', cursive;
+    line-height: 40px;
+    text-align: center;
+}
+.footer-quote span {
+    font-family: 'Abril Fatface', cursive;
+}
+.footer hr
+{
+    width: 90%;
+}
+.container-joinus .btn {
+    border: 1px solid grey;
+    color: white;
+    font-weight: bold;
+    background-color:#29ABE2 ;
+
+}
+.container-team{
+    box-shadow: 0 18px 35px 5px #29ABE2;
+}
+.container-team img {
+    border: 5px solid white;
+}
+.image img {
+    border: 2px solid black;
+}
+.image  {
+    margin: auto;
+}
+.btn-submit 
+{
+    background-color:#29ABE2 ;
+}
+.form {
+    box-shadow: 0px 0px 20px 2px #29ABE2;
+    width: 35%;
+}
+@media screen and (max-width: 600px)
+{
+    .form{
+        width:85% ;
+    }
+}
+.form button:hover {
+    background-color: white;
+}
+.physics-table {
+    width: 75%;
+}
+.physics-table p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    /* text-align: center; */
+    text-decoration: none;
+}
+.physics-table tr:hover {
+    background-color:#29ABE2 ;
+}
+.container-physics {
+    width: 90%;
+}
+@media screen and (max-width: 600px)
+{
+    .physics-table {
+        width: 100%;
+    }
+}
+iframe {
+    width: 45%;
+}
+@media screen and (max-width:600px)
+{
+    .iframe {
+        width: 90%;
+    }
+}
